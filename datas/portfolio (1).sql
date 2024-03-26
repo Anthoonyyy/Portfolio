@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Hôte : sql8614.phpnet.org:3306
--- Généré le : mar. 26 mars 2024 à 19:06
--- Version du serveur : 10.6.17-MariaDB-1:10.6.17+maria~deb11-log
--- Version de PHP : 7.3.31-1~deb10u5
+-- Hôte : 127.0.0.1:3307
+-- Généré le : mar. 26 mars 2024 à 18:48
+-- Version du serveur : 11.2.2-MariaDB
+-- Version de PHP : 8.2.13
 
 SET FOREIGN_KEY_CHECKS=0;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -19,43 +19,25 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `2024_web_anthony`
+-- Base de données : `portfolio`
 --
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `portfolio`
+-- Structure de la table `formulaire`
 --
 
-CREATE TABLE `portfolio` (
-  `id` int(15) UNSIGNED NOT NULL,
+DROP TABLE IF EXISTS `formulaire`;
+CREATE TABLE IF NOT EXISTS `formulaire` (
+  `id` int(15) UNSIGNED NOT NULL AUTO_INCREMENT,
   `firstname` varchar(100) NOT NULL,
   `lastname` varchar(100) NOT NULL,
   `usermail` varchar(200) NOT NULL,
   `message` varchar(600) NOT NULL,
-  `datemessage` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Index pour les tables déchargées
---
-
---
--- Index pour la table `portfolio`
---
-ALTER TABLE `portfolio`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT pour les tables déchargées
---
-
---
--- AUTO_INCREMENT pour la table `portfolio`
---
-ALTER TABLE `portfolio`
-  MODIFY `id` int(15) UNSIGNED NOT NULL AUTO_INCREMENT;
+  `datemessage` datetime NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
 
