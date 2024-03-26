@@ -12,7 +12,20 @@ function getAllMessage(PDO $db): array
     return $result;
 }
 
+//Fonction qui récupère le nombre de commentaires
+
+function getNbMessage(PDO $db): int
+{
+    $sql = "SELECT COUNT(*) as nb FROM `formulaire` ORDER BY `datemessage` ASC";
+    $query = $db->query($sql);
+    $result = $query->fetch(PDO::FETCH_ASSOC);
+    $query->closeCursor();
+    return $result['nb'];
+}
+
+
 //Fonction qui insère un message dans la base de données 'portfolio' et sa table 'formulaire'
+
 function addMessage(
     PDO $db,
     string $firstname,
