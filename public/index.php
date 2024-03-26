@@ -32,3 +32,11 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['m
         $message = "Erreur lors de l'insertion";
     }
 }
+
+//Fermeture de la connexion 
+
+$db = null;
+
+// Appel de la vue 
+
+include "../view/accueilView.php";
