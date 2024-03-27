@@ -13,11 +13,11 @@
     <title>Portfolio Arnone Anthony</title>
 </head>
 
-<body>
+<body id="homePage">
 
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-            <a class="navbar-brand " href="#" id="logo"> Arnone Anthony<span id="point">.</span> </a>
+            <a class="navbar-brand " href="#" id="logo"> Arnone Anthony<span class="orange">.</span> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,9 +41,10 @@
                     <img src="../img/banniere1-removebg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">
+                    <h1 class="display-5 text-body-emphasis lh-1 mb-3">Hi there!</h1>
+                    <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow">My Name is Anthony</h2>
+                    <h3>I'm a web developper</h3>
 
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow">I'm Arnone Anthony</h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
 
                 </div>
             </div>
