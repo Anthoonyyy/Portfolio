@@ -14,7 +14,7 @@
 </head>
 
 <body id="homePage">
-
+    <!-------------------------------------NAVBAR------------------------------------------------->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand " href="#" id="logo"> Arnone Anthony<span class="orange">.</span> </a>
@@ -34,6 +34,8 @@
             </div>
         </div>
     </nav>
+    <!-------------------------------------FIN NAVBAR------------------------------------------------->
+    <!-------------------------------------SECTION ACCUEIL------------------------------------------------->
     <main>
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -50,7 +52,8 @@
             </div>
         </div>
     </main>
-    <!--FOOTER-->
+    <!-------------------------------------FIN SECTION ACCUEIL------------------------------------------------->
+    <!-------------------------------------FOOTER------------------------------------------------->
     <div class="container-fluid">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -63,6 +66,7 @@
             <p class="text-center text-body-secondary">© Arnone Anthony</p>
         </footer>
     </div>
+    <!-------------------------------------FIN FOOTER------------------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
