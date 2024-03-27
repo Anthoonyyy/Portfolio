@@ -4,5 +4,10 @@ body {
 }
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.147);
+    background-color: #1f1e1c;
+    height: 5em;
+}
+
+#logo{
+    color: #e66313;
 }
