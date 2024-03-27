@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
 body {
     margin: 0;
     padding: 0;
 }
 
 #navbar {
-    background-color: #1f1e1c;
+    background-color: transparent;
     height: 5em;
 }
 
-#logo{
-    color: #e66313;
+#logo {
+
+    font-family: "Aladin", sans-serif;
+    font-size: 1.5em;
+}
+
+#point {
+    color: #f77510;
 }
