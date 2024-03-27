@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Portfolio Arnone Anthony</title>
 </head>
 
@@ -38,7 +39,7 @@
                 </div>
                 <div class="col-lg-6">
 
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm Arnone Anthony</h1>
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 animate__animated animate__lightSpeedInLeft" >I'm Arnone Anthony</h1>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
 
                 </div>
