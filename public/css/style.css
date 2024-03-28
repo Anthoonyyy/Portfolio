@@ -5,21 +5,22 @@
 #homePage {
     margin: 0;
     padding: 0;
-    background-color: #B7B7B7;
+    background-color: black;
 
 }
 
 .presentation {
     font-family: "Belleza", sans-serif;
+    color: #D1CBC8;
 }
 
 #navbar {
-    background-color: rgba(245, 245, 245, 0.316);
+
     height: 5em;
 }
 
 #logo {
-
+    color: #D1CBC8;
     font-family: "Aladin", sans-serif;
     font-size: 1.5em;
 }
@@ -28,7 +29,18 @@
     color: #F17310;
 }
 
+a.nav-link.active[aria-current="page"] {
+    color: #F17310;
+}
+
+
+a.nav-link,
+a.nav-link:hover {
+    color: #D1CBC8;
+}
+
 #contenuNav {
     font-family: "Arsenal", sans-serif;
     font-size: 20px;
+
 }
