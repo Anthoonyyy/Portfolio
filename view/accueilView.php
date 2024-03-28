@@ -18,7 +18,7 @@
     <!-------------------------------------NAVBAR------------------------------------------------->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-            <a class="navbar-brand " href="#" id="logo"> Arnone Anthony<span class="orange">.</span> </a>
+            <a class="navbar-brand " href="./" id="logo"> Arnone Anthony<span class="orange">.</span> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,8 +44,8 @@
                     <img src="../img/banniere1-removebg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-6 text-body-emphasis lh-1 mb-4 presentation">Bienvenue sur mon portfolio!</h1>
-                    <h2 class="display-5  text-body-emphasis lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow presentation">Je suis <span class="orange">Arnone Anthony</span></h2>
+                    <h1 class="display-6  lh-1 mb-4 presentation">Bienvenue sur mon portfolio!</h1>
+                    <h2 class=" display-5  lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow presentation">Je suis <span class="orange">Arnone Anthony</span></h2>
                     <h3 class="display-8  mt-5 presentation">Développeur Full-Stack à votre service</h3>
 
                 </div>
