@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 #homePage {
     margin: 0;
     padding: 0;
-    background-color: #8e8e90;
+    background-color: #B7B7B7;
 
 }
 
-
+.presentation {
+    font-family: "Belleza", sans-serif;
+}
 
 #navbar {
-    background-color: rgba(184, 185, 184, 0.426);
+    background-color: rgba(245, 245, 245, 0.316);
     height: 5em;
 }
 
@@ -22,7 +25,7 @@
 }
 
 .orange {
-    color: #f77510;
+    color: #F17310;
 }
 
 #contenuNav {
