@@ -16,7 +16,7 @@
 
 <body id="homePage">
     <!-------------------------------------NAVBAR------------------------------------------------->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
         <div class="container">
             <a class="navbar-brand " href="./" id="logo"> Arnone Anthony<span class="orange">.</span> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
