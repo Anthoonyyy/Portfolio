@@ -48,7 +48,7 @@
                     <h2 class=" display-5  lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow animate__delay-1s presentation">Je suis <span class="orange">Arnone Anthony</span></h2>
                     <h3 class="display-8  mt-5 animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s presentation">Développeur Full-Stack à votre service</h3>
                     <div class="text-center">
-                        <button id="btn" class="display-8  mt-5 ">Qui-suis-je ?</button>
+                        <button id="btn" class="display-8  mt-5 animate__animated animate__jackInTheBox animate__slow animate__delay-3s">Qui-suis-je ?</button>
                     </div>
                 </div>
             </div>
