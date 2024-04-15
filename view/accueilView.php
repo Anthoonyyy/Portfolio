@@ -43,35 +43,22 @@
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="../img/banniere1-removebg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <h1 class="display-6  lh-1 mb-4 presentation animate__animated animate__tada ">Bienvenue sur mon portfolio!</h1>
                     <h2 class=" display-5  lh-1 mb-3 animate__animated animate__lightSpeedInLeft animate__slow animate__delay-1s presentation">Je suis <span class="orange">Arnone Anthony</span></h2>
                     <h3 class="display-8  mt-5 animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s presentation">Développeur Full-Stack à votre service</h3>
-
+                    <div class="text-center">
+                        <button id="btn" class="display-8  mt-5 ">Qui-suis-je ?</button>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <!-------------------------------------FIN SECTION ACCUEIL------------------------------------------------->
 
-     <!------------------------------------- SECTION A Propos ------------------------------------------------->
-     <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
     <!-------------------------------------FOOTER------------------------------------------------->
-    <div class="container-fluid">
+    <div class=" container-fluid">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accueil</a></li>
