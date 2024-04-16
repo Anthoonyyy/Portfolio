@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Contact</h1>
+    <h1>Compétences</h1>
 </body>
 
 </html>
