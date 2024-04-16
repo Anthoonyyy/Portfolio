@@ -8,10 +8,10 @@
             <div class="navbar-nav  ms-auto" id="contenuNav">
 
                 <a class="nav-link active" aria-current="page" href="./">Accueil</a>
-                <a class="nav-link" href="#">Profil</a>
-                <a class="nav-link" href="#">Compétences</a>
-                <a class="nav-link" href="#">Portfolio</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="?section=profil">Profil</a>
+                <a class="nav-link" href="?section=compétences">Compétences</a>
+                <a class="nav-link" href="?section=portfolio">Portfolio</a>
+                <a class="nav-link" href="?section=contact">Contact</a>
 
             </div>
         </div>
