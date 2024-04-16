@@ -43,19 +43,19 @@ if(isset($_GET['section'])){
             break;
         case 'compétences':
             $title = "Compétences";
-            include('./view/competencesView.php');
+            include('../view/competencesView.php');
             break;
         case 'portfolio':
             $title = "Portfolio";
-            include('./view/portfolioView.php');
+            include('../view/portfolioView.php');
             break;
         case 'contact':
             $title = "Contact";
-            include('./view/contactView.php');
+            include('../view/contactView.php');
             break;
         # Si aucune des sections n'est valide, on affiche la page 404
         default:
-            include('./view/404View.php');
+            include('../view/404View.php');
     }
 // si le paramètre "section" n'est pas défini dans l'URL
 }else{
@@ -68,6 +68,4 @@ if(isset($_GET['section'])){
 
 $db = null;
 
-// Appel de la vue 
 
-include "../view/accueilView.php";
