@@ -33,6 +33,37 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['m
     }
 }
 
+if(isset($_GET['section'])){
+    // on va utiliser un switch pour rediriger vers le bon fichier
+    switch($_GET['section']){
+       
+        case 'profil':
+            $title = "Profil";
+            include('../view/profilView.php');
+            break;
+        case 'compétences':
+            $title = "Compétences";
+            include('./view/competencesView.php');
+            break;
+        case 'portfolio':
+            $title = "Portfolio";
+            include('./view/portfolioView.php');
+            break;
+        case 'contact':
+            $title = "Contact";
+            include('./view/contactView.php');
+            break;
+        # Si aucune des sections n'est valide, on affiche la page 404
+        default:
+            include('./view/404View.php');
+    }
+// si le paramètre "section" n'est pas défini dans l'URL
+}else{
+    // on inclut le fichier accueil.php en suivant l'arborescence de fichiers
+    include('../view/accueilView.php');
+}
+
+
 //Fermeture de la connexion 
 
 $db = null;
