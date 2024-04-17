@@ -33,10 +33,13 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['m
     }
 }
 
-if(isset($_GET['section'])){
+if (isset($_GET['section'])) {
     // on va utiliser un switch pour rediriger vers le bon fichier
-    switch($_GET['section']){
-       
+    switch ($_GET['section']) {
+        case 'accueil':
+            $title = "Accueil";
+            include('../view/accueilView.php');
+            break;
         case 'profil':
             $title = "Profil";
             include('../view/profilView.php');
@@ -53,12 +56,12 @@ if(isset($_GET['section'])){
             $title = "Contact";
             include('../view/contactView.php');
             break;
-        # Si aucune des sections n'est valide, on affiche la page 404
+            # Si aucune des sections n'est valide, on affiche la page 404
         default:
             include('../view/404View.php');
     }
-// si le paramètre "section" n'est pas défini dans l'URL
-}else{
+    // si le paramètre "section" n'est pas défini dans l'URL
+} else {
     // on inclut le fichier accueil.php en suivant l'arborescence de fichiers
     include('../view/accueilView.php');
 }
@@ -67,5 +70,3 @@ if(isset($_GET['section'])){
 //Fermeture de la connexion 
 
 $db = null;
-
-
