@@ -8,9 +8,11 @@
     background-color: black;
 
 }
-h1{
+
+h1 {
     color: #D1CBC8;
 }
+
 .presentation {
     font-family: "Belleza", sans-serif;
     color: #D1CBC8;
@@ -31,9 +33,7 @@ h1{
     color: #F17310;
 }
 
-a.nav-link.active[aria-current="page"] {
-    color: #F17310;
-}
+
 
 
 a.nav-link,
