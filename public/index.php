@@ -36,21 +36,17 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['m
 if (isset($_GET['section'])) {
     // on va utiliser un switch pour rediriger vers le bon fichier
     switch ($_GET['section']) {
-        case 'accueil':
-            $title = "Accueil";
-            include('../view/accueilView.php');
+        case 'home':
+            $title = "Home";
+            include('../view/homeView.php');
             break;
-        case 'profil':
-            $title = "Profil";
-            include('../view/profilView.php');
+        case 'about':
+            $title = "About Me";
+            include('../view/aboutView.php');
             break;
-        case 'compétences':
-            $title = "Compétences";
-            include('../view/competencesView.php');
-            break;
-        case 'portfolio':
-            $title = "Portfolio";
-            include('../view/portfolioView.php');
+        case 'projects':
+            $title = "Projects";
+            include('../view/projectsView.php');
             break;
         case 'contact':
             $title = "Contact";
