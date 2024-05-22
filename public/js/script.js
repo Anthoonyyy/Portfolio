@@ -8,17 +8,14 @@ searchParams = URL_SearchParams.get("section");
 function changeLinkNavColours() {
 
     switch (searchParams) {
-        case 'accueil':
+        case 'home':
             navLink[0].style.color = "#F17310";
             break;
-        case 'profil':
+        case 'about':
             navLink[1].style.color = "#F17310";
             break;
-        case 'compétences':
+        case 'projects':
             navLink[2].style.color = "#F17310";
-            break;
-        case 'portfolio':
-            navLink[3].style.color = "#F17310";
             break;
         case 'contact':
             navLink[4].style.color = "#F17310";
