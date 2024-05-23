@@ -105,6 +105,7 @@ h1 {
     }
 }
 
+/* Fin Bouton accueil*/
 
 /*Effet curseur blob*/
 .blob {
@@ -125,14 +126,6 @@ h1 {
     z-index: -1;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
 
 a.nav-link,
 a.nav-link:hover {
@@ -145,127 +138,7 @@ a.nav-link:hover {
 
 }
 
-#btn {
-    font-family: inherit;
-    display: inline-block;
-    width: 8em;
-    height: 2.6em;
-    line-height: 2.5em;
-    margin: 20px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #F17310;
-    transition: color .5s;
-    z-index: 1;
-    font-size: 17px;
-    border-radius: 10px;
-    font-weight: 500;
-    color: #D1CBC8;
-    background-color: black;
-    margin-right: 15%;
-}
-
-#btn:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    background: #F17310;
-    height: 150px;
-    width: 200px;
-    border-radius: 50%;
-}
-
-#btn:hover {
-    color: black;
-}
-
-#btn:before {
-    top: 100%;
-    left: 100%;
-    transition: all .7s;
-}
-
-#btn:hover:before {
-    top: -30px;
-    left: -30px;
-}
-
-#btn:active:before {
-    background: #F17310;
-    transition: background 0s;
-}
 
 #footer {
     background-color: rgba(0, 0, 0, 0.488)
-}
-
-.section {
-    padding: 100px 0;
-    position: relative;
-}
-
-.about-text h3 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 0 0 6px;
-}
-
-@media (max-width: 767px) {
-    .about-text h3 {
-        font-size: 35px;
-    }
-}
-
-.about-text h6 {
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-@media (max-width: 767px) {
-    .about-text h6 {
-        font-size: 18px;
-    }
-}
-
-.about-text p {
-    font-size: 18px;
-    max-width: 450px;
-}
-
-#h6Lead {
-    color: #F17310;
-}
-
-.about-list {
-    padding-top: 10px;
-}
-
-.about-list .media {
-    padding: 5px 0;
-}
-
-.about-list label {
-    color: black;
-    border-bottom: 2px solid #F17310;
-    font-weight: 600;
-    width: 88px;
-    margin: 0;
-    position: relative;
-}
-
-
-
-.about-list p {
-    margin: 0;
-    font-size: 15px;
-}
-
-@media (max-width: 991px) {
-    .about-avatar {
-        margin-top: 30px;
-    }
-}
-
-.about-avatar img {
-    border-radius: 30px;
 }
