@@ -150,3 +150,15 @@ a.nav-link:hover {
 #footer {
     background-color: rgba(0, 0, 0, 0.488)
 }
+
+.aboutMe {
+    font-family: "Belleza", sans-serif;
+    color: #D1CBC8;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#moreAboutMe {
+    color: #D1CBC8;
+    font-size: 29px;
+}
