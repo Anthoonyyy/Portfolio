@@ -10,6 +10,14 @@
 
 }
 
+.aboutPage,
+.projectsPage,
+.contactPage {
+    background-color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: #D1CBC8;
 }
