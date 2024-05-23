@@ -59,7 +59,7 @@ if (isset($_GET['section'])) {
     // si le paramètre "section" n'est pas défini dans l'URL
 } else {
     // on inclut le fichier accueil.php en suivant l'arborescence de fichiers
-    include('../view/accueilView.php');
+    include('../view/homeView.php');
 }
 
 
