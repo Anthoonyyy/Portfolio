@@ -21,6 +21,23 @@
     ?>
     <!-------------------------------------FIN NAVBAR------------------------------------------------->
 
+
+
+    <div class="container px-4 py-5">
+        <h2 class="pb-2 mt-5 text-center aboutMe">About me</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center  py-5">
+            <div class="col gap-2">
+                <h2 id="moreAboutMe" class="pb-4">Know More About Me</h2>
+                <p class="text-white">I am a full-stack developer with a year and a half of training at <a href="https://www.cf2m.be/formation/developpeur-web" target="_blank">CF2M</a>. I have a particular affinity for front-end development, where I love to express my creativity. I invite you to check out the Projects section to see some of my latest work.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
