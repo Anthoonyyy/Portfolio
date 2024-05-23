@@ -14,7 +14,7 @@
     <title><?= $title ?></title>
 </head>
 
-<body class="homePage">
+<body class="aboutPage">
     <!-------------------------------------NAVBAR------------------------------------------------->
     <?php
     include("inc/navbar.php")
