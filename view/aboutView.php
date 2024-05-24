@@ -26,12 +26,30 @@
     <div class="container px-4 py-5">
         <h2 class="pb-2 mt-5 text-center aboutMe">About me</h2>
 
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-center  py-5">
+        <div class="row row-cols-1 row-cols-md-2   py-5">
             <div class="col gap-2">
-                <h2 id="moreAboutMe" class="pb-4">Know More About Me</h2>
+                <h2 id="moreAboutMe" class="pb-4 pt-4">Know More About Me</h2>
                 <p class="text-white">I am a full-stack developer with a year and a half of training at <a href="https://www.cf2m.be/formation/developpeur-web" target="_blank">CF2M</a>. I have a particular affinity for front-end development, where I love to express my creativity. I invite you to check out the Projects section to see some of my latest work.</p>
 
+                <p class="text-white">Throughout my training, I have acquired numerous skills that are essential in web development. I am very enthusiastic about the opportunity to evolve in this field, continue learning, tackle new challenges, and push my limits. I am eager to contribute my knowledge while growing both personally and professionally.</p>
+
+                <p class="text-white">I am open to all opportunities and available for new ventures. Please feel free to contact me if you have any questions or if you would like to discuss potential collaborations.</p>
             </div>
+            
+            <div class="col text-center ps-5 pt-3">
+                <h2 class="text-white">Skills</h2>
+                <div class="skills d-flex justify-content-center flex-wrap mt-5">
+                    <div class="skillsItem ">HTML</div>
+                    <div class="skillsItem ">CSS</div>
+                    <div class="skillsItem ">Javascript</div>
+                    <div class="skillsItem ">PHP</div>
+                    <div class="skillsItem ">SQL</div>
+                    <div class="skillsItem ">Bootstrap</div>
+                    <div class="skillsItem ">Jquery</div>
+                    <div class="skillsItem ">GIT</div>
+                </div>
+            </div>
+       
 
 
         </div>
