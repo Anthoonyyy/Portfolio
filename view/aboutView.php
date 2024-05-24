@@ -47,6 +47,9 @@
                     <div class="skillsItem ">Bootstrap</div>
                     <div class="skillsItem ">Jquery</div>
                     <div class="skillsItem ">GIT</div>
+                    <div class="skillsItem ">Github</div>
+                    <div class="skillsItem ">Wordpress</div>
+                    <div class="skillsItem ">Responsive Design</div>
                 </div>
             </div>
 
