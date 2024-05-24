@@ -163,7 +163,7 @@ a.nav-link:hover {
     font-size: 29px;
 }
 
-.skillsItem{
+.skillsItem {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
@@ -171,4 +171,37 @@ a.nav-link:hover {
     background: #141414;
     border-radius: 5px;
     color: #D1CBC8;
+}
+
+#cf2m {
+    color: rgb(71, 203, 255);
+    font-size: 19px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+}
+
+#cf2m:hover {
+    text-shadow: 0 0 10px rgba(71, 203, 255, 0.751),
+        0 0 10px rgba(71, 203, 255, 0.751);
+}
+
+
+
+
+#redirectProjects {
+    text-decoration: none;
+    color: hsla(339, 100%, 55%, 1);
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+#redirectProjects:hover {
+    text-shadow: 0 0 10px rgba(255, 26, 106, 0.753),
+        0 0 10px rgba(255, 26, 106, 0.753);
+}
+
+#spanProj {
+    font-size: 23px;
 }
