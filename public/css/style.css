@@ -158,9 +158,13 @@ a.nav-link:hover {
     text-transform: uppercase;
 }
 
-#moreAboutMe {
+.moreAboutMe {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.textAboutMe {
     color: #D1CBC8;
-    font-size: 29px;
 }
 
 .skillsItem {
@@ -171,6 +175,8 @@ a.nav-link:hover {
     background: #141414;
     border-radius: 5px;
     color: #D1CBC8;
+    box-shadow: rgba(188, 200, 213, 0.29) 0px 20px 30px -10px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
 }
 
 #cf2m {
@@ -198,8 +204,15 @@ a.nav-link:hover {
 
 }
 
+#redirectContact {
+    text-decoration: none;
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+}
 
-
-#spanProj {
+/*#spanProj {
     font-size: 23px;
 }
