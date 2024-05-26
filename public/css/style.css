@@ -174,33 +174,31 @@ a.nav-link:hover {
 }
 
 #cf2m {
-    color: rgb(71, 203, 255);
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 19px;
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
 }
 
-#cf2m:hover {
-    text-shadow: 0 0 10px rgba(71, 203, 255, 0.751),
-        0 0 10px rgba(71, 203, 255, 0.751);
-}
+
 
 
 
 
 #redirectProjects {
     text-decoration: none;
-    color: hsla(339, 100%, 55%, 1);
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: inline-block;
     font-weight: 700;
 
 }
 
-#redirectProjects:hover {
-    text-shadow: 0 0 10px rgba(255, 26, 106, 0.753),
-        0 0 10px rgba(255, 26, 106, 0.753);
-}
+
 
 #spanProj {
     font-size: 23px;
