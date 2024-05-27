@@ -215,4 +215,9 @@ a.nav-link:hover {
 
 /*#spanProj {
     font-size: 23px;
+}*/
+
+.imgProjects {
+    width: 450px !important;
+    height: 200px !important;
 }
