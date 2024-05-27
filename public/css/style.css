@@ -221,3 +221,8 @@ a.nav-link:hover {
     width: 450px !important;
     height: 200px !important;
 }
+
+.cardContainer {
+    max-width: 740px !important;
+    background-color: #141414 !important;
+}
