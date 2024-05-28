@@ -25,11 +25,11 @@
     <div class="card mb-3 mt-3 cardContainer">
         <div class="row g-0 ">
             <div class="col-md-4">
-                <img src="img/projets2.png" alt="Projects2" class="img-fluid rounded-start imgProjects">
+                <img src="img/proj1.png" alt="Project1" class="img-fluid rounded-start imgProjects">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title text-white">Projects 2</h5>
+                    <h5 class="card-title text-white">Project 1</h5>
                     <p class="card-text">
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
@@ -45,11 +45,11 @@
     <div class="card mb-3 mt-3 cardContainer">
         <div class="row g-0 ">
             <div class="col-md-4">
-                <img src="img/projets3.png" alt="Projects 3" class="img-fluid rounded-start imgProjects">
+                <img src="img/proj2.png" alt="Project2" class="img-fluid rounded-start imgProjects">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title text-white">Projects 3</h5>
+                    <h5 class="card-title text-white">Project 2</h5>
                     <p class="card-text">
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
@@ -65,11 +65,31 @@
     <div class="card mb-3 mt-3 cardContainer">
         <div class="row g-0 ">
             <div class="col-md-4">
-                <img src="img/projetsBronks.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start imgProjects">
+                <img src="img/proj3.png" alt="Project3" class="img-fluid rounded-start imgProjects">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title text-white">Projects 4</h5>
+                    <h5 class="card-title text-white">Project 3</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 mt-3 cardContainer">
+        <div class="row g-0 ">
+            <div class="col-md-4">
+                <img src="img/projBronks.png" alt="Project Bronks" class="img-fluid rounded-start imgProjects">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Project 4</h5>
                     <p class="card-text">
                         This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
