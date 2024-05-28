@@ -218,12 +218,12 @@ a.nav-link:hover {
 }*/
 
 .imgProjects {
-    width: 350px !important;
-    height: 190px !important;
+    width: 550px !important;
+    height: 210px !important;
 }
 
 .cardContainer {
-    max-width: 740px !important;
+    max-width: 800px !important;
     background-color: #141414 !important;
     margin: 0 auto;
 }
