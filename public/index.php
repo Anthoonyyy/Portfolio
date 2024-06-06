@@ -36,17 +36,17 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['m
 if (isset($_GET['section'])) {
     // on va utiliser un switch pour rediriger vers le bon fichier
     switch ($_GET['section']) {
-        case 'home':
-            $title = "Home";
-            include('../view/homeView.php');
+        case 'accueil':
+            $title = "Accueil";
+            include('../view/accueilView.php');
             break;
-        case 'about':
-            $title = "About Me";
-            include('../view/aboutView.php');
+        case 'Apropos':
+            $title = "A propos";
+            include('../view/Apropos.php');
             break;
-        case 'projects':
-            $title = "Projects";
-            include('../view/projectsView.php');
+        case 'projets':
+            $title = "Projets";
+            include('../view/projetsView.php');
             break;
         case 'contact':
             $title = "Contact";
@@ -59,7 +59,7 @@ if (isset($_GET['section'])) {
     // si le paramètre "section" n'est pas défini dans l'URL
 } else {
     // on inclut le fichier accueil.php en suivant l'arborescence de fichiers
-    include('../view/homeView.php');
+    include('../view/accueilView.php');
 }
 
 
