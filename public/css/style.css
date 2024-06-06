@@ -6,8 +6,16 @@
 .homePage {
     margin: 0;
     padding: 0;
-    background-color: black;
 
+
+}
+#videoHome{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
 }
 
 .aboutPage,
@@ -35,8 +43,11 @@ h1 {
 }
 
 #navbar {
-    background-color: rgba(0, 0, 0, 0.108);
+   background-color: transparent;
     height: 4em;
+
+   
+    
 }
 
 
