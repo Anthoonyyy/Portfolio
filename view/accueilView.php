@@ -31,9 +31,9 @@
             <h1 class="display-6 fw-bold text-white  presentation animate__animated animate__tada">Bienvenue sur mon portfolio !</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="display-6 text-white animate__animated animate__fadeInUp animate__slow animate__delay-1s  mt-5" id="desc">
-                   Je suis Arnone Anthony, développeur web Full-Stack</p>
+                   Je suis Arnone Anthony, développeur web Front-End</p>
                 <a href="?section=Apropos"> <button class="button mt-5 animate__animated animate__zoomIn animate__slow animate__delay-2s">
-                À propos de moi
+                Qui-suis-je?
                         <div class="hoverEffect">
                             <div>
                             </div>
