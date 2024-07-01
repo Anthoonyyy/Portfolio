@@ -16,7 +16,7 @@
 </head>
 
 <body class="homePage">
-<video src="img/background.mp4" muted loop autoplay id="videoHome"></video>
+    <img src="../img/design3.jpg" alt="image banniere" id="banner">
     <!-------------------------------------NAVBAR------------------------------------------------->
     <?php
     include("inc/navbar.php")
@@ -28,12 +28,13 @@
     <main>
         <div class="px-4 py-5 my-5 text-center">
 
-            <h1 class="display-6 fw-bold text-white  presentation animate__animated animate__tada">Bienvenue sur mon portfolio !</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="display-6 text-white animate__animated animate__fadeInUp animate__slow animate__delay-1s  mt-5" id="desc">
-                   Je suis Arnone Anthony, développeur web Front-End</p>
+
+            <div class="col-lg-6 mx-auto pt-5 mt-5">
+                <h1 class="display-6 fw-bold text-white  presentation animate__animated animate__tada mb-5 pb-3">Bienvenue sur mon portfolio !</h1>
+                <p class="display-6 text-white animate__animated animate__fadeInUp animate__slow animate__delay-1s " id="desc">
+                    Je suis Arnone Anthony, développeur web Front-End</p>
                 <a href="?section=Apropos"> <button class="button mt-5 animate__animated animate__zoomIn animate__slow animate__delay-2s">
-                Qui-suis-je?
+                        Qui-suis-je?
                         <div class="hoverEffect">
                             <div>
                             </div>
@@ -54,7 +55,7 @@
     ?>
     <!-------------------------------------FIN FOOTER------------------------------------------------->
     <!--<script src="../js/script.js"></script>-->
-   <!-- <script src="js/blob.js"></script>-->
+    <!-- <script src="js/blob.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
