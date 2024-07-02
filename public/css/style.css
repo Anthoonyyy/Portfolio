@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 .homePage {
     margin: 0;
@@ -20,13 +22,6 @@
 
 }
 
-.aboutPage,
-.projectsPage,
-.contactPage {
-    background-color: #171717;
-    margin: 0;
-    padding: 0;
-}
 
 h1 {
     color: #D1CBC8;
@@ -161,71 +156,26 @@ a.nav-link:hover {
     background-color: rgba(0, 0, 0, 0.488)
 }
 
+#bodyApropos {
+    background-color: #cec5daa8;
+}
+
 .aboutMe {
     font-family: "Belleza", sans-serif;
-    color: #D1CBC8;
-    font-size: 45px;
+    font-size: 40px;
     text-transform: uppercase;
-}
-
-.moreAboutMe {
-    color: whitesmoke;
-    font-size: 30px;
-}
-
-.textAboutMe {
-    color: #D1CBC8;
-}
-
-.skillsItem {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1em;
-    background: #141414;
-    border-radius: 5px;
-    color: #D1CBC8;
-    box-shadow: rgba(188, 200, 213, 0.29) 0px 20px 30px -10px;
-    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
-}
-
-#cf2m {
-    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 19px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 700;
-}
-
-
-
-
-
-
-#redirectProjects {
-    text-decoration: none;
-    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    font-weight: 700;
 
 }
 
-#redirectContact {
-    text-decoration: none;
-    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    font-weight: 700;
-}
 
-/*#spanProj {
-    font-size: 23px;
-}*/
+.aMonPropos {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+}
 
 .imgProjects {
     width: 550px !important;
