@@ -23,14 +23,14 @@
     <!-------------------------------------FIN NAVBAR------------------------------------------------->
 
     <div class="container  px-4 py-5">
-        <h2 class="pb-2 mt-3 text-center aboutMe">A propos de moi</h2>
+        <h2 class="pb-2 mt-3 text-center aboutMe animate__animated animate__pulse animate__infinite animate__slow ">A propos de moi</h2>
         <div class="row flex-lg-row-reverse align-items-center s py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="img/conceptCoding.png" class="d-block ms-5 img-fluid" alt="concept coding" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
                 <p class="aMonPropos">Bonjour !</p>
-                <p class="aMonPropos"> Je suis un développeur web junior formé au CF2M, où j'ai suivi une formation intensive d'un an et demi. Avant de me lancer dans le développement web, j'ai travaillé dans le secteur de la vente.</p>
+                <p class="aMonPropos"> Je suis un développeur web junior formé au <a href="https://www.cf2m.be/formation/developpeur-web" target="_blank" class="text-decoration-none"><span id="CF2M">CF2M</span></a>, où j'ai suivi une formation intensive d'un an et demi. Avant de me lancer dans le développement web, j'ai travaillé dans le secteur de la vente.</p>
                 <p class="aMonPropos"> Cette expérience m'a permis d'acquérir de solides compétences en communication et en gestion des relations clients, qui se révèlent très utiles dans mon parcours actuel de développeur web. </p>
                 <p class="aMonPropos">Le métier de développeur m'a toujours passionné, mais ce n'est que récemment que j'ai eu l'opportunité de m'y consacrer pleinement. </p>
                 <p class="aMonPropos">Je suis une personne naturellement curieuse, toujours en quête d'apprentissage et de perfectionnement. Je cherche une entreprise qui me fera confiance et me permettra d'évoluer dans ce domaine, afin de pouvoir y contribuer activement tout en élargissant mes connaissances et compétences.</p>
@@ -38,6 +38,8 @@
             </div>
         </div>
     </div>
+    <h2 class="pb-4 mt-3 text-center aboutMe mb-4">Mes compétences</h2>
+
 
 
 
