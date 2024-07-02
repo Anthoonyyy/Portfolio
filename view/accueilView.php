@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <title><?= $title ?></title>
+    <title>Accueil</title>
 </head>
 
 <body class="homePage">
