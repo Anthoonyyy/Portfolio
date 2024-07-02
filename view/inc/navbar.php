@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+<nav class="navbar navbar-expand-lg " id="navbar">
     <div class="container">
         <a class="navbar-brand " href="?section=accueil" id="logo"> Arnone Anthony. </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
