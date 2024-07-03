@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
     <title><?= $title ?></title>
 </head>
 
@@ -38,11 +39,35 @@
             </div>
         </div>
     </div>
-    <h2 class="pb-4 mt-3 text-center aboutMe mb-4">Mes compétences</h2>
+    
+    <section id="competences">
+    <h2 class="pb-4 mt-3 text-center  mb-4" id="mesCompetences">Mes compétences</h2>
 
+<div class="container px-4 py-5">
+    <div class="row  align-items-md-center  py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold ">Left-aligned title explaining these awesome features</h2>
+        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        
+      </div>
 
-
-
+      <div class="col text-center ps-5 pt-3">
+                
+                <div class="skills d-flex justify-content-center flex-wrap mt-5">
+                    <div class="skillsItem ">HTML </div>
+                    <div class="skillsItem ">CSS</div>
+                    <div class="skillsItem ">Javascript</div>
+                    <div class="skillsItem ">PHP</div>
+                    <div class="skillsItem ">SQL</div>
+                    <div class="skillsItem ">Bootstrap</div>
+                    <div class="skillsItem ">Jquery</div>
+                    <div class="skillsItem ">GIT</div>
+                    <div class="skillsItem ">Github</div>
+                    <div class="skillsItem ">Tailwind</div>
+                    <div class="skillsItem ">Responsive Design</div>
+                </div>
+</div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
