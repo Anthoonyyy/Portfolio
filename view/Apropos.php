@@ -41,7 +41,7 @@
     </div>
     
     <section id="competences">
-    <h2 class="pb-4 mt-3 text-center  mb-4" id="mesCompetences">Mes compétences</h2>
+    <h2 class="pb-4 mt-3 text-center  mb-4 animate__animated animate__pulse animate__infinite animate__slow" id="mesCompetences">Mes compétences</h2>
 
 <div class="container px-4 py-5">
     <div class="row  align-items-md-center  py-5">
