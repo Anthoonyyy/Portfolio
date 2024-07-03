@@ -27,15 +27,15 @@
     <div class="container  px-4 py-5">
         <h2 class="pb-2 mt-3 text-center aboutMe ">A propos de moi</h2>
         <div class="row flex-lg-row-reverse align-items-center s py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
+            <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-left" data-aos-duration="2200">
                 <img src="img/conceptCoding.png" class="d-block ms-5 img-fluid" alt="concept coding" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
-                <p class="aMonPropos">Bonjour !</p>
-                <p class="aMonPropos"> Je suis un développeur web junior formé au <a href="https://www.cf2m.be/formation/developpeur-web" target="_blank" class="text-decoration-none"><span id="CF2M">CF2M</span></a>, où j'ai suivi une formation intensive d'un an et demi. Avant de me lancer dans le développement web, j'ai travaillé dans le secteur de la vente.</p>
-                <p class="aMonPropos"> Cette expérience m'a permis d'acquérir de solides compétences en communication et en gestion des relations clients, qui se révèlent très utiles dans mon parcours actuel de développeur web. </p>
-                <p class="aMonPropos">Le métier de développeur m'a toujours passionné, mais ce n'est que récemment que j'ai eu l'opportunité de m'y consacrer pleinement. </p>
-                <p class="aMonPropos">Je suis une personne naturellement curieuse, toujours en quête d'apprentissage et de perfectionnement. Je cherche une entreprise qui me fera confiance et me permettra d'évoluer dans ce domaine, afin de pouvoir y contribuer activement tout en élargissant mes connaissances et compétences.</p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="0">Bonjour !</p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"> Je suis un développeur web junior formé au <a href="https://www.cf2m.be/formation/developpeur-web" target="_blank" class="text-decoration-none"><span id="CF2M">CF2M</span></a>, où j'ai suivi une formation intensive d'un an et demi. Avant de me lancer dans le développement web, j'ai travaillé dans le secteur de la vente.</p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600"> Cette expérience m'a permis d'acquérir de solides compétences en communication et en gestion des relations clients, qui se révèlent très utiles dans mon parcours actuel de développeur web. </p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Le métier de développeur m'a toujours passionné, mais ce n'est que récemment que j'ai eu l'opportunité de m'y consacrer pleinement. </p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">Je suis une personne naturellement curieuse, toujours en quête d'apprentissage et de perfectionnement. Je cherche une entreprise qui me fera confiance et me permettra d'évoluer dans ce domaine, afin de pouvoir y contribuer activement tout en élargissant mes connaissances et compétences.</p>
 
             </div>
         </div>
