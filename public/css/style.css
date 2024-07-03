@@ -291,6 +291,8 @@
     bottom: -0.5px;
 }
 
+/*FIN PAGE PROJETS*/
+
 /*Media query pc portable*/
 @media screen and (min-width: 1530px) and (max-width: 1910px) {
     .presentation {
