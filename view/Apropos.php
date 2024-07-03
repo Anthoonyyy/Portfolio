@@ -36,7 +36,19 @@
                 <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600"> Cette expérience m'a permis d'acquérir de solides compétences en communication et en gestion des relations clients, qui se révèlent très utiles dans mon parcours actuel de développeur web. </p>
                 <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Le métier de développeur m'a toujours passionné, mais ce n'est que récemment que j'ai eu l'opportunité de m'y consacrer pleinement. </p>
                 <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">Je suis une personne naturellement curieuse, toujours en quête d'apprentissage et de perfectionnement. Je cherche une entreprise qui me fera confiance et me permettra d'évoluer dans ce domaine, afin de pouvoir y contribuer activement tout en élargissant mes connaissances et compétences.</p>
+                <p class="aMonPropos" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1500">Je vous invite à découvrir les projets que j'ai réalisés au cours de ma formation ci-dessous</p>
+                <div data-aos="flip-up" data-aos-duration="1500" data-aos-delay="1700">
+                    <a href="?section=projets" class="text-decoration-none">
+                        <button class="cta d-block mx-auto">
+                            <span>Mes Projets</span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
 
+                    </a>
+                </div>
             </div>
         </div>
     </div>
