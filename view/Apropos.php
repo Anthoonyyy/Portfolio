@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
- 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title><?= $title ?></title>
 </head>
 
@@ -24,7 +25,7 @@
     <!-------------------------------------FIN NAVBAR------------------------------------------------->
 
     <div class="container  px-4 py-5">
-        <h2 class="pb-2 mt-3 text-center aboutMe animate__animated animate__pulse animate__infinite animate__slow ">A propos de moi</h2>
+        <h2 class="pb-2 mt-3 text-center aboutMe ">A propos de moi</h2>
         <div class="row flex-lg-row-reverse align-items-center s py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="img/conceptCoding.png" class="d-block ms-5 img-fluid" alt="concept coding" width="700" height="500" loading="lazy">
@@ -39,32 +40,105 @@
             </div>
         </div>
     </div>
-    
+
     <section id="competences">
-    <h2 class="pb-3 mt-3 text-center  mb-4 animate__animated animate__pulse animate__infinite animate__slow" id="mesCompetences">Mes compétences</h2>
+        <h2 class="pb-2 mt-3 text-center  mb-2 " id="mesCompetences">Mes compétences</h2>
 
-<div class="container px-4 py-5">
-    <div class="row  align-items-md-center  py-5">
-      
 
-      <div class="col text-center ps-5 pt-3">
-                
-                <div class="skills d-flex justify-content-center flex-wrap mt-5">
-                    <div class="skillsItem ">HTML </div>
-                    <div class="skillsItem ">CSS</div>
-                    <div class="skillsItem ">Javascript</div>
-                    <div class="skillsItem ">PHP</div>
-                    <div class="skillsItem ">SQL</div>
-                    <div class="skillsItem ">Bootstrap</div>
-                    <div class="skillsItem ">Jquery</div>
-                    <div class="skillsItem ">GIT</div>
-                    <div class="skillsItem ">Github</div>
-                    <div class="skillsItem ">Tailwind</div>
-                    <div class="skillsItem ">Responsive Design</div>
+        <div class="container px-4 py-5">
+            <div class="row align-items-md-center py-5">
+
+                <div class="col ps-5 pt-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">HTML</p>
+                        <span class="mb-1">90%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">CSS</p>
+                        <span class="mb-1">80%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress2" style="width: 80%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">PHP</p>
+                        <span class="mb-1">65%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 65%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">GIT / GITHUB</p>
+                        <span class="mb-1">95%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress2" style="width: 95%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">SYMFONY</p>
+                        <span class="mb-1">In progress..</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
                 </div>
-</div>
-</section>
+
+                <div class="col ps-5 pt-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">Javascript</p>
+                        <span class="mb-1">70%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress2" style="width: 70%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">Bootstrap</p>
+                        <span class="mb-1">80%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar " style="width: 80%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">jQuery</p>
+                        <span class="mb-1">75%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress2" style="width: 75%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">MySQL</p>
+                        <span class="mb-1">60%</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar  " style="width: 60%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-1 skill">REACT</p>
+                        <span class="mb-1">In progress..</span>
+                    </div>
+                    <div class="progress mb-4 shadow-lg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress2" style="width: 50%" data-aos="fade-right" data-aos-duration="1500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
