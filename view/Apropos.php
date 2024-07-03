@@ -41,15 +41,11 @@
     </div>
     
     <section id="competences">
-    <h2 class="pb-4 mt-3 text-center  mb-4 animate__animated animate__pulse animate__infinite animate__slow" id="mesCompetences">Mes compétences</h2>
+    <h2 class="pb-3 mt-3 text-center  mb-4 animate__animated animate__pulse animate__infinite animate__slow" id="mesCompetences">Mes compétences</h2>
 
 <div class="container px-4 py-5">
     <div class="row  align-items-md-center  py-5">
-      <div class="col d-flex flex-column align-items-start gap-2">
-        <h2 class="fw-bold ">Left-aligned title explaining these awesome features</h2>
-        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        
-      </div>
+      
 
       <div class="col text-center ps-5 pt-3">
                 
