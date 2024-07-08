@@ -291,6 +291,40 @@
     bottom: -0.5px;
 }
 
+#projet3{
+    height: 243px
+}
+.card-body{
+    background-color: #ded8e6 !important;
+}
+.btnVoirPlus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+   border: none;
+    padding: 5px 20px;
+    background: #ded8e6;
+    color: #6757cb;
+    font-weight: bold;
+}
+
+.btnVoirPlus > svg {
+    margin-left: 5px;
+    transition: all 0.4s ease-in;
+}
+
+.btnVoirPlus:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(6px);
+}
+
+.btnVoirPlus:hover {
+    box-shadow: 10px 10px 40px #d1d1d1;
+    transform: translateY(-5px);
+}
 /*FIN PAGE PROJETS*/
 
 /*Media query pc portable*/
