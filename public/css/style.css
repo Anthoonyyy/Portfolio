@@ -325,6 +325,22 @@
     box-shadow: 10px 10px 40px #d1d1d1;
     transform: translateY(-5px);
 }
+.backgroundModal{
+    background-color: #ded8e6 !important;
+}
+.modal-title{
+    font-family: 'Poppins', sans-serif !important;
+    color: #6757cb !important;
+}
+.iconeCocher{
+    width: 20px !important;
+    height: 20px !important;
+}
+.presentationProjets{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
 /*FIN PAGE PROJETS*/
 
 /*Media query pc portable*/
