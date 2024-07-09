@@ -95,20 +95,63 @@
 
     <!-- Modal pour le Projet 1 -->
     <div class="modal fade" id="modalProjet1" tabindex="-1" aria-labelledby="modalProjet1Label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title mx-auto" id="modalProjet1Label">Détails du Projet 1</h5>
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                    <h5 class="modal-title mt-2">Projet de formation 1</h5>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="images/projet1.jpg" class="img-fluid mb-3" alt="Projet 1">
-                    <p>Informations détaillées sur le projet 1.</p>
+                    <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/projets1.png" class="d-block w-100 " alt="Projet 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1a" class="d-block w-100" alt="Projet 1a">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1b" class="d-block w-100" alt="Projet 1b">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1c" class="d-block w-100" alt="Projet 1c">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1d" class="d-block w-100" alt="Projet 1d">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1e" class="d-block w-100" alt="Projet 1e">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet1f" class="d-block w-100" alt="Projet 1f">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de réaliser un site statique en PHP destiné à présenter une capitale européenne. Le projet incluait l'utilisation de textes et d'images fournis, ainsi qu'un exemple préexistant sur la ville de Bruxelles</p>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Réalisation d'un site statique
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Entièrement en  HTML, CSS et PHP
+                        </li>
+
+                    </ul>
 
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                </div>
+
             </div>
         </div>
     </div>
