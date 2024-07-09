@@ -167,7 +167,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../img/projets2.png" class="d-block w-100 rounded-5"   alt="projet de formation 2">
+                    <img src="../img/projets2.png" class="d-block w-75  rounded-5 mx-auto"   alt="projet de formation 2">
 
                     <ul class="mt-3">
                         <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de créer un formulaire responsive pour un livre d'or, avec une structure PHP suivant le modèle MVC, incluant la récupération de données depuis MySQL et des vérifications JavaScript pour la validation.</p>
