@@ -48,7 +48,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Projet de formation 2</h5>
                         <p class="card-text">
-                            <button class="btnVoirPlus mx-auto">
+                            <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet2">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
@@ -107,25 +107,25 @@
                     <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../img/projets1.png" class="d-block w-100 " alt="Projet 1">
+                                <img src="../img/projets1.png" class="d-block w-100 rounded-5" alt="Projet 1">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1a" class="d-block w-100" alt="Projet 1a">
+                                <img src="../img/projet1a" class="d-block w-100 rounded-5" alt="Projet 1a">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1b" class="d-block w-100" alt="Projet 1b">
+                                <img src="../img/projet1b" class="d-block w-100 rounded-5" alt="Projet 1b">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1c" class="d-block w-100" alt="Projet 1c">
+                                <img src="../img/projet1c" class="d-block w-100 rounded-5" alt="Projet 1c">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1d" class="d-block w-100" alt="Projet 1d">
+                                <img src="../img/projet1d" class="d-block w-100 rounded-5" alt="Projet 1d">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1e" class="d-block w-100" alt="Projet 1e">
+                                <img src="../img/projet1e" class="d-block w-100 rounded-5" alt="Projet 1e">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/projet1f" class="d-block w-100" alt="Projet 1f">
+                                <img src="../img/projet1f" class="d-block w-100 rounded-5" alt="Projet 1f">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -139,7 +139,7 @@
                     </div>
                     <ul class="mt-3">
                         <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de réaliser un site statique en PHP destiné à présenter une capitale européenne. Le projet incluait l'utilisation de textes et d'images fournis, ainsi qu'un exemple préexistant sur la ville de Bruxelles</p>
-                        <li class="list-group-item d-flex align-items-center">
+                        <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
                             Réalisation d'un site statique
                         </li>
@@ -156,6 +156,49 @@
         </div>
     </div>
 
+    <!-- Modal pour le Projet 2 -->
+    <div class="modal fade" id="modalProjet2" tabindex="-1" aria-labelledby="modalProjet2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                        <h5 class="modal-title mt-2">Projet de formation 2</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../img/projets2.png" class="d-block w-100 rounded-5"   alt="projet de formation 2">
+
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de créer un formulaire responsive pour un livre d'or, avec une structure PHP suivant le modèle MVC, incluant la récupération de données depuis MySQL et des vérifications JavaScript pour la validation.</p>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Création d'un formulaire responsive
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Utilisation du Modèle MVC en PHP
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Validation des entrées côté client avec JavaScript
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Conception et stylisation en HTML et CSS
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Utilisation de MySQL pour récupérer les données
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 
