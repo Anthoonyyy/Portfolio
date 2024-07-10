@@ -292,7 +292,7 @@
 }
 
 #projet3{
-    height: 243px
+    height: 100%;
 }
 .card-body{
     background-color: #ded8e6 !important;
@@ -348,8 +348,11 @@
         margin-top: -50px !important;
     }
     .presentation {
-        margin-top: 13% !important;
-
+        margin-top: 10% !important;
+    }
+    #desc{
+        font-size: 1em;
+        margin-top: -2% !important;
     }
 }
 
@@ -379,7 +382,7 @@
 
 @media screen and (min-width: 1530px) and (max-width: 1918px) {
     .presentation {
-        margin-top: 12% !important;
+        margin-top: 2% !important;
     }
 
     .aMonPropos {
