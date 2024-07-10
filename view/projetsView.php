@@ -77,7 +77,7 @@
             <div class="col">
                 <div class="card border-0">
                     <img src="../img/projet4.png" class="card-img-top" alt="Projet de formation 4"/>
-                    <div class="card-body " id="cardBody">
+                    <div class="card-body ">
                         <h5 class="card-title text-center">Projet de formation 4</h5>
                         <p class="card-text">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet4">
@@ -93,10 +93,26 @@
             <div class="col">
                 <div class="card border-0">
                     <img src="../img/projetGroupe1.png" class="card-img-top" alt="Projet de groupe 1"/>
-                    <div class="card-body " id="cardBody">
+                    <div class="card-body ">
                         <h5 class="card-title text-center">Travail de groupe 1</h5>
                         <p class="card-text">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet5">
+                                <span>Voir plus</span>
+                                <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <img src="../img/projetGroupe2.png" class="card-img-top" alt="Projet de groupe 2" id="projetGroupe2">
+                    <div class="card-body ">
+                        <h5 class="card-title text-center">Travail de groupe 2</h5>
+                        <p class="card-text">
+                            <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet6">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
@@ -255,7 +271,7 @@
                         <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de créer une carte interactive en utilisant OpenStreetMap, avec une interface d’administration privée accessible à un administrateur. Ce dernier peut gérer, via un CRUD, les localisations à afficher sur la carte.</p>
                         <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
-                            Création d'une carte interactive utilisant OpenStreetMap
+                            Carte interactive utilisant OpenStreetMap
                         </li>
                         <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
@@ -263,7 +279,7 @@
                         </li>
                         <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
-                            Réalisation de l'interface d'administration avec Bootstrap
+                            Interface d'administration en Bootstrap
                         </li>
                         <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
@@ -271,7 +287,7 @@
                         </li>
                         <li class="list-group-item d-flex align-items-center">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
-                            Intégration des données dans la carte  avec JavaScript.
+                            Intégration des données dans la carte  avec JS.
                         </li>
 
 
@@ -389,12 +405,56 @@
                         </li>
                         <li class="list-group-item d-flex align-items-center mb-2">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
-                            Organisation et planification de nos tâches respectives
+                            Organisation et planification de nos tâches
                         </li>
                         <li class="list-group-item d-flex align-items-center">
                             <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
                             Soutien et entraide avec mon coéquipier
                         </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour le Projet 6 -->
+    <div class="modal fade" id="modalProjet6" tabindex="-1" aria-labelledby="modalProjet6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                        <h5 class="modal-title mt-2">Projet de groupe 2</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../img/projetGroupe2.png" class="d-block w-100  rounded-5 mx-auto"   alt="projet de groupe 2">
+
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce projet de groupe, composé de 4 personnes, consistait à recréer le site de la Mission Locale de Saint-Gilles en suivant un cahier des charges précis. Chacun de nous était responsable de deux des huit pages du site. En collaborant étroitement, nous avons veillé à ce que toutes les pages du site s'intègrent harmonieusement</p>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Modification d'un template existant
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Respect du cahier des charges
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Échange régulier de feedbacks constructifs
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Organisation et planification de nos tâches
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Collaboration pour tester les pages développées
+                        </li>
+
                     </ul>
 
                 </div>
