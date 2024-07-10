@@ -343,10 +343,43 @@
 
 /*FIN PAGE PROJETS*/
 
-/*Media query pc portable*/
-@media screen and (min-width: 1530px) and (max-width: 1910px) {
+@media screen and (min-width: 400px) and (max-width: 991px){
+    #conceptCoding {
+        margin-top: -50px !important;
+    }
     .presentation {
-        margin-top: -10px !important;
+        margin-top: 13% !important;
+
+    }
+}
+
+
+@media screen and (min-width:991px) and (max-width: 1530px) {
+    .presentation {
+        margin-top: 18% !important;
+        font-size: 2em !important;
+    }
+
+    #desc {
+        margin-top: -5% !important;
+        font-size: 1.5em !important;
+    }
+
+    #btnAccueil {
+        margin-top: 3% !important;
+    }
+
+    .aMonPropos {
+
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (min-width: 1530px) and (max-width: 1918px) {
+    .presentation {
+        margin-top: 12% !important;
     }
 
     .aMonPropos {
@@ -363,31 +396,10 @@
     }
 }
 
-/*Media query tablette*/
-@media screen and (max-width: 1500px) {
+
+@media screen and (min-width: 1918px){
     .presentation {
-        margin-top: 10% !important;
-        font-size: 30px !important;
-    }
-
-    #desc {
-        margin-top: -5% !important;
-        font-size: 18px !important;
-    }
-
-    #btnAccueil {
-        margin-top: 3% !important;
-    }
-
-    .aMonPropos {
-
-        font-size: 13px;
+        margin-top: 12% !important;
     }
 }
 
-/*media query portable/tablette*/
-@media screen and (max-width: 991px) {
-    #conceptCoding {
-        margin-top: -50px !important;
-    }
-}
