@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title><?= $title ?></title>
 </head>
 
@@ -27,11 +28,11 @@
     <div class="container mt-5 pt-5">
         <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-5">
             <div class="col ">
-                <div class="card border-0">
+                <div class="card border-0" data-aos="flip-left" data-aos-duration="1500">
                     <img src="../img/projet1.png" class="card-img-top" alt="Projet formation 1"/>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Projet de  formation 1</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500">Projet de  formation 1</h5>
+                        <p class="card-text"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet1">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,11 +44,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card border-0">
+                <div class="card border-0" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
                     <img src="../img/projet2.png" class="card-img-top" alt="Projet formation 2"/>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Projet de formation 2</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Projet de formation 2</h5>
+                        <p class="card-text"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet2">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,11 +60,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 border-0">
+                <div class="card h-100 border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="700">
                     <img src="../img/projet3.png" class="card-img-top" alt="Projet de formation 3" id="projet3">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Projet de formation 3</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">Projet de formation 3</h5>
+                        <p class="card-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet3">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,11 +76,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card border-0">
+                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="900">
                     <img src="../img/projet4.png" class="card-img-top" alt="Projet de formation 4"/>
                     <div class="card-body ">
-                        <h5 class="card-title text-center">Projet de formation 4</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">Projet de formation 4</h5>
+                        <p class="card-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet4">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,11 +92,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card border-0">
+                <div class="card border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1100">
                     <img src="../img/projetGroupe1.png" class="card-img-top" alt="Projet de groupe 1"/>
                     <div class="card-body ">
-                        <h5 class="card-title text-center">Travail de groupe 1</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">Travail de groupe 1</h5>
+                        <p class="card-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet5">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,11 +108,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100 border-0">
+                <div class="card h-100 border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1300">
                     <img src="../img/projetGroupe2.png" class="card-img-top" alt="Projet de groupe 2" id="projetGroupe2">
                     <div class="card-body ">
-                        <h5 class="card-title text-center">Travail de groupe 2</h5>
-                        <p class="card-text">
+                        <h5 class="card-title text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">Travail de groupe 2</h5>
+                        <p class="card-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
                             <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet6">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,6 +120,33 @@
                                 </svg>
                             </button>
                         </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1500">
+                    <img src="../img/comingSoon.jpg" class="card-img-top" alt="Coming Soon">
+                    <div class="card-body ">
+                        <!--<h5 class="card-title text-center"></h5>
+                        <p class="card-text"></p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1700">
+                    <img src="../img/comingSoon.jpg" class="card-img-top" alt="Coming Soon">
+                    <div class="card-body ">
+                        <!--<h5 class="card-title text-center"></h5>
+                        <p class="card-text"></p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="1900">
+                    <img src="../img/comingSoon.jpg" class="card-img-top" alt="Coming Soon">
+                    <div class="card-body ">
+                        <!--<h5 class="card-title text-center"></h5>
+                        <p class="card-text"></p>-->
                     </div>
                 </div>
             </div>
@@ -464,6 +492,10 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
