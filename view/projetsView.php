@@ -80,7 +80,7 @@
                     <div class="card-body " id="cardBody">
                         <h5 class="card-title text-center">Projet de formation 4</h5>
                         <p class="card-text">
-                            <button class="btnVoirPlus mx-auto">
+                            <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet4">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
@@ -266,6 +266,60 @@
         </div>
     </div>
 
+    <!-- Modal pour le Projet 4 -->
+    <div class="modal fade" id="modalProjet4" tabindex="-1" aria-labelledby="modalProjet4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                        <h5 class="modal-title mt-2">Projet de formation 4</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/projet4.png" class="d-block w-100 rounded-5" alt="Projet 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet4a" class="d-block w-100 rounded-5" alt="Projet 4a">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet4b" class="d-block w-100 rounded-5" alt="Projet 4b">
+                            </div>
+
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce projet était de recréer un design existant en une maquette Figma, puis de le coder en HTML et CSS. </p>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Maquette Figma à partir d'un design existant
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Conception et stylisation en HTML et CSS
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
