@@ -90,6 +90,22 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="../img/projetGroupe1.png" class="card-img-top" alt="Projet de groupe 1"/>
+                    <div class="card-body " id="cardBody">
+                        <h5 class="card-title text-center">Travail de groupe 1</h5>
+                        <p class="card-text">
+                            <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet5">
+                                <span>Voir plus</span>
+                                <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -258,6 +274,7 @@
                             Intégration des données dans la carte  avec JavaScript.
                         </li>
 
+
                     </ul>
 
                 </div>
@@ -313,6 +330,71 @@
                         </li>
 
 
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour le Projet 5 -->
+    <div class="modal fade" id="modalProjet5" tabindex="-1" aria-labelledby="modalProjet5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                        <h5 class="modal-title mt-2">Travail de groupe 1</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/projetGroupe1Slide.png" class="d-block w-100 rounded-5" alt="Projet de groupe 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projetGroupe1a" class="d-block w-100 rounded-5" alt="Projet de groupe 1a">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projetGroupe1b" class="d-block w-100 rounded-5" alt="Projet de groupe 1b">
+                            </div>
+
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce projet de groupe, réalisé avec un coéquipier, était de présenter 20 méthodes jQuery. Nous devions partir d'un template existant et le modifier pour mettre en valeur les différentes méthodes jQuery. </p>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Modification d'un template existant
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                           Utilisation de Jquery
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Communication claire avec mon coéquipier
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Organisation et planification de nos tâches respectives
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Soutien et entraide avec mon coéquipier
+                        </li>
                     </ul>
 
                 </div>
