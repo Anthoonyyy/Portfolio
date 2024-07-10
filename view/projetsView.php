@@ -25,7 +25,7 @@
 
 
     <div class="container mt-5 pt-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-5">
             <div class="col ">
                 <div class="card border-0">
                     <img src="../img/projet1.png" class="card-img-top" alt="Projet formation 1"/>
