@@ -28,7 +28,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col ">
                 <div class="card border-0">
-                    <img src="../img/projets1.png" class="card-img-top" alt="Projet formation 1"/>
+                    <img src="../img/projet1.png" class="card-img-top" alt="Projet formation 1"/>
                     <div class="card-body">
                         <h5 class="card-title text-center">Projet de  formation 1</h5>
                         <p class="card-text">
@@ -44,7 +44,7 @@
             </div>
             <div class="col">
                 <div class="card border-0">
-                    <img src="../img/projets2.png" class="card-img-top" alt="Projet formation 2"/>
+                    <img src="../img/projet2.png" class="card-img-top" alt="Projet formation 2"/>
                     <div class="card-body">
                         <h5 class="card-title text-center">Projet de formation 2</h5>
                         <p class="card-text">
@@ -64,7 +64,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Projet de formation 3</h5>
                         <p class="card-text">
-                            <button class="btnVoirPlus mx-auto">
+                            <button class="btnVoirPlus mx-auto" data-bs-toggle="modal" data-bs-target="#modalProjet3">
                                 <span>Voir plus</span>
                                 <svg width="15" height="15" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linejoin="round" stroke-linecap="round"></path>
@@ -107,7 +107,7 @@
                     <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../img/projets1.png" class="d-block w-100 rounded-5" alt="Projet 1">
+                                <img src="../img/projet1.png" class="d-block w-100 rounded-5" alt="Projet 1">
                             </div>
                             <div class="carousel-item">
                                 <img src="../img/projet1a" class="d-block w-100 rounded-5" alt="Projet 1a">
@@ -167,7 +167,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../img/projets2.png" class="d-block w-75  rounded-5 mx-auto"   alt="projet de formation 2">
+                    <img src="../img/projet2.png" class="d-block w-75  rounded-5 mx-auto"   alt="projet de formation 2">
 
                     <ul class="mt-3">
                         <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de créer un formulaire responsive pour un livre d'or, avec une structure PHP suivant le modèle MVC, incluant la récupération de données depuis MySQL et des vérifications JavaScript pour la validation.</p>
@@ -200,6 +200,71 @@
         </div>
     </div>
 
+    <!-- Modal pour le Projet 3 -->
+    <div class="modal fade" id="modalProjet3" tabindex="-1" aria-labelledby="modalProjet3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" >
+            <div class="modal-content backgroundModal" >
+                <div class="modal-header border-0">
+                    <div class="d-flex justify-content-center w-100">
+                        <h5 class="modal-title mt-2">Projet de formation 3</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/projet3.png" class="d-block w-100 rounded-5" alt="Projet 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet3a" class="d-block w-100 rounded-5" alt="Projet 3a">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/projet3b" class="d-block w-100 rounded-5" alt="Projet 3b">
+                            </div>
+
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <ul class="mt-3">
+                        <p class="presentationProjets me-3">L'objectif de ce travail d'intégration était de créer une carte interactive en utilisant OpenStreetMap, avec une interface d’administration privée accessible à un administrateur. Ce dernier peut gérer, via un CRUD, les localisations à afficher sur la carte.</p>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Création d'une carte interactive utilisant OpenStreetMap
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Utilisation du Modèle MVC en PHP
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Réalisation de l'interface d'administration avec Bootstrap
+                        </li>
+                        <li class="list-group-item d-flex align-items-center mb-2">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Mise en place d'un système CRUD
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <img src="../img/cocher.png" alt="icone cocher" class="iconeCocher me-2">
+                            Intégration des données dans la carte  avec JavaScript.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
