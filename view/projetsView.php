@@ -22,7 +22,7 @@
     ?>
     <!-------------------------------------FIN NAVBAR------------------------------------------------->
 
-    <h1 class="pb-3 mt-3 text-center aboutMe " id="mesProjets">Mes Projets</h1>
+    <h1 class="pb-3 mt-5 text-center aboutMe " id="mesProjets">Mes Projets</h1>
 
 
     <div class="container mt-5 pt-5">
