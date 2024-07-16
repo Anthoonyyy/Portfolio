@@ -134,8 +134,13 @@
 }
 
 
-#footer {
-    background-color: rgba(0, 0, 0, 0.488)
+#containerFooter{
+    background-color: #5E5768;
+
+}
+.texteFooter{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
 }
 
 /*FIN PAGE ACCUEIL*/
@@ -466,7 +471,14 @@ a #boutonMail  span {
     }
 }
 
-
+#iconeReseaux{
+    width: 50px;
+    height: 50px;
+}
+.iconeContact{
+    width: 45px;
+    height: 45px;
+}
 /*FIN PAGE CONTACT*/
 @media screen and (min-width: 400px) and (max-width: 991px){
     #conceptCoding {
