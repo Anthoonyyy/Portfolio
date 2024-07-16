@@ -29,7 +29,7 @@
                     <div class="card-body text-center">
                         <img src="../img/envoyer.png" alt="icone email">
                         <p class="card-text">Vous pouvez également me joindre par mail ci-dessous</p>
-                        <button id="boutonMail" class="mx-auto">
+                        <button id="boutonMail" class="mx-auto ">
                             <div class="svg-wrapper-1">
                                 <div class="svg-wrapper">
                                     <svg
@@ -52,10 +52,11 @@
                 </div>
 
                 <div class="card w-75">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Button</a>
+                    <div class="card-body text-center">
+                        <img src="../img/reseaux-sociaux.png" alt="icone reseaux sociaux" id="iconeReseaux">
+                        <p class="card-text mt-3">Vous pouvez également me suivre sur mes réseaux</p>
+                        <img src="../img/linkedin.png" alt="icone linkedin" class="iconeContact me-5 mt-2">
+                        <img src="../img/github.png" alt="icone github" class="iconeContact mt-2">
                     </div>
                 </div>
 
@@ -91,6 +92,9 @@
             </div>
         </div>
     </div>
+    <?php
+    include("inc/footer.php")
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="../js/index.js"></script>
 </body>
