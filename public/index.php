@@ -1,6 +1,7 @@
 <?php
 
 require_once "../config.php";
+require_once "../model/portfolioModel.php";
 
 /*Connexion à la base de données*/
 try {
@@ -11,26 +12,22 @@ try {
 
 // Si le formulaire a été soumis
 
-if (isset($_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['message'])) {
+if (isset($_POST['firstname'],  $_POST['usermail'], $_POST['message'])) {
 
     // on appelle la fonction d'insertion dans la DB (addMessage())
-    $insert = addMessage($db, $_POST['firstname'], $_POST['lastname'], $_POST['usermail'], $_POST['message']);
+    $insert = addMessage($db, $_POST['firstname'], $_POST['usermail'], $_POST['message']);
 
     //Si on obtient une erreur
-    if ($insert === true) $message = "Insertion réussie";
-    else $message = $insert;
+    if ($insert === true) {
+        $message = "Message envoyé";
 
-
-
-    // si l'insertion a réussi
-    if ($insert === true) { //Contient la fonction d'insertion
-        // on redirige vers la page actuelle
-        header("Location: ./");
-        exit();
-    } else {
-        // sinon, on affiche un message d'erreur
-        $message = "Erreur lors de l'insertion";
     }
+    else{
+        $message = "Erreur lors de l'envoi du message";
+    }
+
+
+
 }
 
 if (isset($_GET['section'])) {
