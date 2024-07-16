@@ -29,25 +29,27 @@ function getNbMessage(PDO $db): int
 function addMessage(
     PDO $db,
     string $firstname,
-    string $lastname,
     string $usermail,
     string $message
 ) {
     $firstname = htmlspecialchars(strip_tags(trim($firstname)), ENT_QUOTES);
-    $lastname = htmlspecialchars(strip_tags(trim($lastname)), ENT_QUOTES);
     $usermail = filter_var($usermail, FILTER_VALIDATE_EMAIL);
     $message = htmlspecialchars(strip_tags(trim($message)), ENT_QUOTES);
 
     // si les données ne sont pas valides ou vide, cela retourne une erreur
-    if (empty($firstname) || empty($lastname)  || $usermail === false || empty($message)) {
+    if (empty($firstname)  || $usermail === false || empty($message)) {
         return false;
     }
     //requete sql pour insérer dans les données dans la table formulaire
-    $sql = "INSERT INTO `formulaire` (`firstname`,`lastname`,`usermail`,`message`) VALUES ('$firstname','$lastname','$usermail','$message')";
+    $sql = "INSERT INTO `formulaire` (`firstname`,`usermail`,`message`) VALUES (:firstname,:usermail,:message)";
 
     //Cela tente d'executer la requete sql, si ça réussit, ça retourne true sinon, cela retourne un message d'erreur
     try {
-        $db->exec($sql);
+        $stmt = $db->prepare($sql);
+        $stmt->bindParam(':firstname', $firstname);
+        $stmt->bindParam(':usermail', $usermail);
+        $stmt->bindParam(':message', $message);
+        $stmt->execute();
         return true;
     } catch (Exception $e) {
         return $e->getMessage();
