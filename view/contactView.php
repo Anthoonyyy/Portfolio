@@ -55,8 +55,12 @@
                     <div class="card-body text-center">
                         <img src="../img/reseaux-sociaux.png" alt="icone reseaux sociaux" id="iconeReseaux">
                         <p class="card-text mt-3">Vous pouvez également me suivre sur mes réseaux</p>
-                        <img src="../img/linkedin.png" alt="icone linkedin" class="iconeContact me-5 mt-2">
+                      <a href="https://www.linkedin.com/in/anthony-arnone-68b6471a2/" target="_blank"  style="text-decoration: none">
+                          <img src="../img/linkedin.png" alt="icone linkedin" class="iconeContact me-5 mt-2">
+                      </a>
+                        <a href="https://github.com/Anthoonyyy" target="_blank">
                         <img src="../img/github.png" alt="icone github" class="iconeContact mt-2">
+                        </a>
                     </div>
                 </div>
 
@@ -70,7 +74,7 @@
                     </div>
                     <div class="mb-4">
                         <label for="usermail" class="form-label">Mail</label>
-                        <input type="email" class="form-control" id="usermail" placeholder="Votre mail" name="usermail">
+                        <input type="email" class="form-control" id="usermail" placeholder="Votre mail" name="usermail" >
 
                     </div>
                     <div class="mb-4">
