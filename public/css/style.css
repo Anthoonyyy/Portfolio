@@ -359,12 +359,114 @@
 #titreContact::after {
     content: '';
     height: 2px;
-    width: 14%;
+    width: 12%;
     background: #00c8ea;
     position: absolute;
-    left: calc(50% - 6.5%);
+    left: calc(50% - 6%);
     bottom: -0.5px;
 }
+#backgroundForm{
+    background-color:#D5CDDF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#firstname,#usermail,#message{
+    background-color: #ded8e6;
+}
+#boutonContact{
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #6757cb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+#boutonContact:hover {
+    background-color: #8E82D9;
+
+    transform: scale(1.1);
+}
+
+#boutonContact:active {
+    background-color: #6757cb;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+label[for="firstname"],label[for="usermail"],label[for="message"] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+::-webkit-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+#boutonMail {
+    font-family: inherit;
+    font-size: 20px;
+    background:#E286FE;
+    color: white;
+    padding: 0.5em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+
+#boutonMail span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+a #boutonMail  span {
+
+    text-decoration: none;
+}
+
+#boutonMail svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#boutonMail:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+#boutonMail:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+#boutonMail:hover span {
+    transform: translateX(5em);
+}
+
+#boutonMail:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+
 /*FIN PAGE CONTACT*/
 @media screen and (min-width: 400px) and (max-width: 991px){
     #conceptCoding {
