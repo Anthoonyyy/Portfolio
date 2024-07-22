@@ -479,6 +479,15 @@ a #boutonMail  span {
     width: 45px;
     height: 45px;
 }
+.cardContact{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 24px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.cardContactTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
 /*FIN PAGE CONTACT*/
 @media screen and (min-width: 400px) and (max-width: 991px){
     #conceptCoding {
